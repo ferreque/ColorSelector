@@ -1,10 +1,57 @@
-.App {
+.header {
+  display: flex;
   text-align: center;
+  color: white;
+  font-size: 23px;
+  font-weight: lighter;
+  align-items: center;
+  justify-content: center;
+  margin-block: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.paleta-title {
+  font-size: 50px;
+  margin-right: 20px;
+}
+.circle-container {
+  display: flex;
+  margin: auto;
+}
+.circle {
+  margin: 5px;
+  border-radius: 100px;
+  text-align: center;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 90px;
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(
+    130.53deg,
+    #404040 17.47%,
+    #404040 27.71%,
+    #b0b0b0 27.72%,
+    #b0b0b0 36.75%,
+    #404040 36.76%,
+    #404040 45.49%,
+    #b0b0b0 45.5%,
+    #b0b0b0 54.23%,
+    #404040 54.24%,
+    #404040 63.27%,
+    #b0b0b0 63.27%,
+    #b0b0b0 71.71%,
+    #404040 71.71%
+  );
+  border: 3px solid #ffffff;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.circle:hover {
+  cursor: pointer;
+  /* height: 110px;
+  width: 110px;
+  background: black; */
+}
+.pallete-picker {
 }
 
 @media (prefers-reduced-motion: no-preference) {
